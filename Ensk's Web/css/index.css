@@ -124,9 +124,9 @@ body::-webkit-scrollbar {
 
 .sub-menu {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 100%;
-    margin-left: 3px;
+    transform: translateY(-50%);
     background: rgb(248, 249, 250);
     border-radius: 7px;
     padding: 6px 0;
