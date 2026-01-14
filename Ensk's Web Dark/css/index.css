@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     width: 580px;
     height: 25px;
     padding: 9px 10px;
-	font-family: 'Noto Sans SC', 'Microsoft YaHei UI', arial,sans-serif;
+    font-family: 'Noto Sans SC', 'Microsoft YaHei UI', arial,sans-serif;
     font-size: 15px;
     color: #555;
     border: none;
@@ -36,26 +36,26 @@ body::-webkit-scrollbar {
     overflow: hidden;
     outline:none;
     vertical-align: middle;
-	border-radius: 2px;
+    border-radius: 2px;
     background-color: rgb(222,222,222);
 }
 
 #search-bar button {
-	margin-top: 20px;
-	margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     width: 105px;
     height: 35px;
     overflow: hidden;
     text-align: center;
     font-size: 15px;
-	font-weight: bold;
-	color: rgb(255,255,255);
+    font-weight: bold;
+    color: rgb(255,255,255);
     border: none;
     overflow: hidden;
     vertical-align: middle;
     outline: none;
     cursor: pointer;
-	border-radius: 2px;
+    border-radius: 2px;
     background-color: rgb(20,162,245);
 }
 
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
     padding-left: 30px;
     padding-top: 10px;
     background-color: rgb(58,58,62);
-	border-radius: 10px;
+    border-radius: 10px;
 }
 
 .nav-panel-line{
@@ -143,7 +143,7 @@ body::-webkit-scrollbar {
     white-space: nowrap;
     margin-left: 6px;
     margin-right: 6px;
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .sub-menu a:hover {
