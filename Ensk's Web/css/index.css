@@ -1,6 +1,6 @@
 ﻿body{
     background-image: url("../images/body.jpg");
-	font-family: 'Microsoft YaHei UI',arial,sans-serif;
+	font-family: 'Noto Sans SC', 'Microsoft YaHei UI', arial,sans-serif;
     font-size: 13px;
 }
 
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     width: 580px;
     height: 25px;
     padding: 9px 10px;
-	font-family: 'Microsoft YaHei UI',arial,sans-serif;
+    font-family: 'Noto Sans SC', 'Microsoft YaHei UI', arial,sans-serif;
     font-size: 15px;
     color: #555;
     border: none;
@@ -36,26 +36,26 @@ body::-webkit-scrollbar {
     overflow: hidden;
     outline:none;
     vertical-align: middle;
+    border-radius: 2px;
     box-shadow: 1px 1px 3px rgb(160,160,160);
-	border-radius: 2px;
 }
 
 #search-bar button {
-	margin-top: 20px;
-	margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     width: 105px;
     height: 35px;
     overflow: hidden;
     text-align: center;
     font-size: 15px;
-	font-weight: bold;
-	color: rgb(100,100,100);
+    font-weight: bold;
+    color: rgb(100,100,100);
     border: none;
     overflow: hidden;
     vertical-align: middle;
     outline: none;
     cursor: pointer;
-	border-radius: 2px;
+    border-radius: 2px;
     background-color: rgb(255,255,255);
     box-shadow: 0px 0px 1px rgb(160,160,160);
 }
@@ -94,6 +94,7 @@ body::-webkit-scrollbar {
     border: 1px solid transparent;
     text-decoration: none;
     color: #333;
+    border-radius: 7px;
 }
 
 .nav-panel-item:hover
@@ -103,6 +104,8 @@ body::-webkit-scrollbar {
 
 .nav-panel-item-img{
     float: left;
+    height: 16px;
+    width: 16px;
     margin-top: 12px;
     margin-left: 15px;
 }
@@ -112,4 +115,44 @@ body::-webkit-scrollbar {
     margin-left: 5px;
     line-height: 40px;
     height: 40px;
+}
+
+
+.nav-panel-item.has-sub {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 3px;
+    background: rgb(248, 249, 250);
+    border-radius: 7px;
+    padding: 6px 0;
+    min-width: 120px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.4);
+    display: none;
+    z-index: 999;
+}
+
+.sub-menu a {
+    display: block;
+    padding: 6px 13px;
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.sub-menu a:hover {
+    background: rgb(230, 233, 237);
+    color: rgb(0, 0, 0);
+}
+
+.nav-panel-item.has-sub:hover .sub-menu {
+    display: block;
 }
